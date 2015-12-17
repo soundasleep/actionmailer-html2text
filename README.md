@@ -1,7 +1,7 @@
 actionmailer-html2text [![Build Status](https://travis-ci.org/soundasleep/actionmailer-html2text.svg?branch=master)](https://travis-ci.org/soundasleep/actionmailer-html2text)
 ======================
 
-`actionmailer-html2text` automatically adds plain text parts to HTML emails sent by ActionMailer, using [html2text](https://github.com/soundasleep/html2text_ruby).
+`actionmailer-html2text` automatically adds plain text parts to HTML emails sent by ActionMailer, using [html2text](https://github.com/soundasleep/html2text_ruby), and inspired by [this blog post](http://artsy.github.io/blog/2012/05/16/generating-automatic-plain-text-mime-parts-with-rails-actionmailer/).
 
 For example:
 
@@ -91,3 +91,7 @@ rspec
 ## License
 
 `actionmailer-html2text` is licensed under MIT.
+
+## Other versions
+
+1. [openclerk/emails](https://github.com/openclerk/emails) is a PHP e-mail framework that automatically generates text multiparts
