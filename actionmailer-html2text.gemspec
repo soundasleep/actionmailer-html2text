@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ActionMailer::Html2Text::VERSION
   s.authors     = ["Jevon Wright"]
   s.email       = ["jevon@powershop.co.nz"]
-  s.homepage    = "https://github.com/soundasleep/html2text_ruby"
+  s.homepage    = "https://github.com/soundasleep/actionmailer-html2text"
   s.summary     = "Add plain text automatically to HTML emails."
-  s.description = "Automatically convert HTML emails into plain text parts, if none are specified."
+  s.description = "Automatically add plain text parts into HTML emails sent by ActionMailer."
   s.license     = "MIT"
 
   s.files = Dir["lib/**/*", "LICENSE.md", "README.md"]
