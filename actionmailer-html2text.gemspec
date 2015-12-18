@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*", "LICENSE.md", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "html2text", "~> 0.1.2"
+  s.add_dependency "html2text", "~> 0.2.0"
   s.add_dependency "actionmailer"
 
   s.add_development_dependency "rspec"
